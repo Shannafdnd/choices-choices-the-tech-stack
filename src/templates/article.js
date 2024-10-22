@@ -122,6 +122,63 @@ const PostTemplate = ({ data }) => {
             <main>
                 <div dangerouslySetInnerHTML={{ __html: post.content.rendered }} />
             </main>
+            <footer>
+                <img src={logo} alt="Red Pers Logo" />
+                <ul class="footer-layout">
+                    <li class="kopjes">
+                        <h3 class="kop-4">RUBRIEKEN</h3>
+                        <ul class="sub-list">
+                            <li><a href="/">Binnenland</a></li>
+                            <li><a href="/">Buitenland</a></li>
+                            <li><a href="/">Columns</a></li>
+                            <li><a href="/">Economie</a></li>
+                            <li><a href="/">Kunst & Media</a></li>
+                            <li><a href="/">Podcast</a></li>
+                            <li><a href="/">Politiek.</a></li>
+                            <li><a href="/">Wetenschap</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="kopjes">
+                        <h3 class="kop-4">NAVIGATIE</h3>
+                        <ul class="sub-list">
+                            <li><a href="/">Colofon</a></li>
+                            <li><a href="/">Contact</a></li>
+                            <li><a href="/">Doneren</a></li>
+                            <li><a href="/">Meedoen</a></li>
+                            <li><a href="/">Over Red Pers</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="kopjes">
+                        <h3 class="kop-4">SERVICE</h3>
+                        <ul class="sub-list">
+                            <li><a href="/">Tip de redactie</a></li>
+                            <li><a href="/">Meld een fout</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="kopjes">
+                        <h3 class="kop-4">MEER RED PERS</h3>
+                        <ul class="sub-list">
+                            <li><a href="/">Nieuwsbrief</a></li>
+                            <li><a href="/">LinkedIn</a></li>
+                            <li><a href="/">Facebook</a></li>
+                            <li><a href="/">Instagram</a></li>
+                            <li><a href="/">X Twitter</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <section class="end-footer">
+                    <p>&copy; 2024 Stichting Red Pers - Alle rechten voorbehouden</p>
+                    <ul class="end-footer-credits">
+                        <li><a href="/">Privacystatement</a></li>
+                        <li><a href="/">Cookiebeleid</a></li>
+                        <li><a href="/">Copyright</a></li>
+                    </ul>
+                </section>
+            </footer>
         </div>
     );
 };
@@ -161,3 +218,5 @@ export const query = graphql`
         }
     }
 `;
+
+export const Head = () => <title>Artikel</title>
