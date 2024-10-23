@@ -3,7 +3,7 @@ Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uit
 De instructie vind je in: [docs/INSTRUCTIONS.md](https://github.com/fdnd-task/choices-choices-the-tech-stack/blob/main/docs/INSTRUCTIONS.md)
 
 # Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+<!-- Red Pers in Gatsby-->
 
 ## Inhoudsopgave
 
@@ -15,18 +15,28 @@ De instructie vind je in: [docs/INSTRUCTIONS.md](https://github.com/fdnd-task/ch
   * [Licentie](#licentie)
 
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
+<img width="1440" alt="Scherm­afbeelding 2024-10-23 om 11 00 32" src="https://github.com/user-attachments/assets/2b9d79e3-b46a-4383-bc6c-4ab91ae27dbb">
+
+Dit is mijn project voor Red Pers, gemaakt in het Framework Gatsby. Ik heb de artikelpagina gebruikt hiervoor. De navigatie linkt nog niet naar andere pagina's. Dit project is bedoeld als onderzoek naar Gatsby.
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+Framework: Gatsby
+CMS: Wordpress
+Data managing: GraphQL
+Gebruik van node
+Taal: HTML, CSS en JS
 
 ## Installatie
+Start de site met `npm install`
 
 ## Gebruik
+Dit project is gemaakt als onderzoek naar Gatsby. Gebruik dit als je wilt zien hoe Red Pers eruit ziet in Gatsby, of als je wilt zien hoe de GraphQL data werkt.
 
 ## Bronnen
+https://www.gatsbyjs.com/docs/why-gatsby-uses-graphql/
+https://www.gatsbyjs.com/docs/how-to/querying-data/running-queries-with-graphiql/
+https://react.dev/learn/rendering-lists
 
 ## Licentie
 
