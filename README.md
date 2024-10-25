@@ -1,7 +1,3 @@
-> _Fork_ deze leertaak en ga aan de slag. 
-Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. 
-De instructie vind je in: [docs/INSTRUCTIONS.md](https://github.com/fdnd-task/choices-choices-the-tech-stack/blob/main/docs/INSTRUCTIONS.md)
-
 # Titel
 <!-- Red Pers in Gatsby-->
 
@@ -21,17 +17,20 @@ Dit is mijn project voor Red Pers, gemaakt in het Framework Gatsby. Ik heb de ar
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
 ## Kenmerken
-Framework: Gatsby
-CMS: Wordpress
-Data managing: GraphQL
-Gebruik van node
-Taal: HTML, CSS en JS
+- Framework: Gatsby
+- CMS: Wordpress
+- Data managing: GraphQL
+- Gebruik van node
+- Taal: HTML, CSS en JS
 
 ## Installatie
-Start de site met `npm install`
+- Fork deze repository
+- Open terminal in vscode
+- Zet in terminal: `npm install`
+- Start de locale development server met: `npm run develop`
 
 ## Gebruik
-Dit project is gemaakt als onderzoek naar Gatsby. Gebruik dit als je wilt zien hoe Red Pers eruit ziet in Gatsby, of als je wilt zien hoe de GraphQL data werkt.
+Dit project is gemaakt als onderzoek naar Gatsby. Gebruik dit als je wilt zien hoe Red Pers eruit ziet in Gatsby, of als je wilt zien hoe de GraphQL data werkt. 
 
 ## Bronnen
 https://www.gatsbyjs.com/docs/why-gatsby-uses-graphql/
